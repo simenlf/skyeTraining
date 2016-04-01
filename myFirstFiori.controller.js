@@ -6,7 +6,7 @@ sap.ui.define([
     var controller = Controller.extend("skye.training.myFirstFiori", {
     	
         onInit: function(oEvent) {
-            
+            console.log("myFirstFiori - onInit");
         }
         
     });
