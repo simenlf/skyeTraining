@@ -1,0 +1,25 @@
+{
+  "welcomeFile": "index.html",
+  "routes": [
+    {
+      "path": "/V4/Northwind/Northwind.svc",
+      "target": {
+        "type": "destination",
+        "name": "Northwind",
+        "entryPath": "/V4/Northwind/Northwind.svc"
+      },
+      "description": "Northwind"
+    }
+  ],
+  "cacheControl": [
+    {
+      "directive": "private",
+      "maxAge": -1,
+      "path": "*html"
+    },
+    {
+      "directive": "public",
+      "maxAge": -1
+    }
+  ]
+}
