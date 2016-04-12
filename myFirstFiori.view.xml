@@ -2,5 +2,7 @@
     controllerName="skye.training.myFirstFiori" 
     xmlns:mvc="sap.ui.core.mvc" 
     xmlns="sap.m">
+	
+	<Label text="Velkommen" />
  
 </mvc:View>
